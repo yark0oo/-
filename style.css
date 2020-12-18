@@ -1,0 +1,149 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.Landing {
+	font-family: 'Roboto', sans-serif;
+	width: 100%;
+	color: #012461;
+}
+
+.Landing__header {
+	background-color: #012461;
+	margin-bottom: 94px;
+	height: 400px;
+	background-image: url('./images/background_image.png');
+	background-size: cover;
+}
+
+.Header__section {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 42px;
+}
+
+.Header__menu {
+	padding: 24px 0;
+}
+
+.Menu__logotype {
+	display: inline-block;
+}
+
+.Menu__list {
+	margin-top: 32px;
+	display: inline-block;
+	float: right;
+}
+
+
+.Menu__link {
+	font-weight: 900;
+	font-size: 24px;
+	margin-left: 24px;
+	color: white;
+	cursor: pointer;
+	opacity: .75;
+	transition: opacity ease .25s;
+}
+
+.Menu__link:hover {
+	opacity: 1;
+}
+
+
+.Header__content {}
+
+.Content__info {
+	vertical-align: top;
+	display: inline-block;
+}
+
+.Content__text {
+	font-weight: 900;
+	font-size: 41px;
+	color: #ffffff;
+}
+
+.Content__button {
+	margin-top: 20%
+}
+
+.Button {
+	font-weight: 900;
+	font-size: 24px;
+	color: #012461;
+	cursor: pointer;
+	background-color: #ffffff;
+	padding: 12px;
+	border-radius: 5px; 
+
+}
+
+.Content__image {
+	vertical-align: top;
+	display: inline-block;
+}
+
+
+.Landing__content {
+	width: 100%;
+}
+
+.Content__section {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 42px;
+	margin-bottom: 96px;
+}
+
+.Section__title {
+	font-family: 'Roboto', sans-serif;
+	font-size: 34px;
+	font-weight: 900;
+	margin-bottom: 24px;
+}
+
+.Section__text {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.Section__lists {}
+
+.List__block {
+	display: inline-block;
+	margin-right: 38px;
+}
+
+.List__block_end {
+	margin-right: 0;
+}
+
+.List__image {
+	margin-bottom: 16px;
+}
+
+.List__image .Image {
+	border-radius: 12px;
+}
+
+.List__title {
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 8px;
+	padding: 0 16px;
+}
+
+.List__info {
+	font-size: 16px;
+	font-weight: 400;
+	padding: 0 16px;
+}
+
+.Landing__footer {
+	background-color: #012461;
+}
